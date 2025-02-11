@@ -1,9 +1,14 @@
-import React from 'react'
+// src/components/Landing.jsx
 
 const Landing = () => {
-  return (
-    <h1>Landing Page</h1>
-  )
-}
-
-export default Landing
+    return (
+      <main>
+        <h1>Hello, you are on the landing page for visitors.</h1>
+        <p>Sign up now, or sign in to see your super secret dashboard!</p>
+      </main>
+    );
+  };
+  
+  export default Landing;
+  
+  
